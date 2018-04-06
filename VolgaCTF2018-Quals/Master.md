@@ -28,7 +28,7 @@ We started by analyzing the pcap. On first inspection, We saw a lot of malformed
 
 We applied a filter to display only MySQL packets, and further analyzed them. The packets contained queries to a **users** table, with usernames and what looked like passwords.
 
-![VolgaCTF2018-Quals-Master](https://github.com/guatitasec/CTF/blob/master/VolgaCTF2018-Quals/images/volgactf2018-master-3.png)
+![VolgaCTF2018-Quals-Master](https://raw.githubusercontent.com/guatitasec/CTF/master/VolgaCTF2018-Quals/images/volgactf2018-master-3.png)
 
 We were initially skeptical that passwords would be stored in plaintext. However, we went ahead and tried some of them out in the login form. To our surprise, we were logged in, with a message that said: "No flag for you!". What this tells us is that there may be an user for whom there is a flag.
 
